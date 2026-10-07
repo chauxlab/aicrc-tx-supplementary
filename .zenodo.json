@@ -1,0 +1,19 @@
+{
+  "title": "Supplementary material: Artificial Intelligence in Therapeutic Decision-Making in Colorectal Cancer: An Integrative Review",
+  "upload_type": "dataset",
+  "description": "Supplementary material for an integrative review (Whittemore & Knafl) on artificial intelligence applied to therapeutic decision-making in colorectal cancer: protocol, search corpus, screening decisions, PRISMA 2020 counts, critical appraisal (MMAT 2018, PROBAST, reduced TRIPOD-AI), and data extraction for 227 included studies. No third-party full texts are included.",
+  "creators": [
+    {
+      "name": "Britos, Paola",
+      "affiliation": "ChauxLab Institute, Asunción, Paraguay",
+      "orcid": "0009-0000-8655-9881"
+    },
+    {
+      "name": "Chaux, Alcides",
+      "affiliation": "ChauxLab Institute, Asunción, Paraguay; Facultad de Ciencias de la Salud, Universidad Central del Paraguay, Ciudad del Este, Paraguay",
+      "orcid": "0000-0002-5824-9867"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["artificial intelligence", "machine learning", "colorectal cancer", "therapeutic decision-making", "integrative review", "supplementary data"]
+}
