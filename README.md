@@ -23,7 +23,12 @@ No full-text PDFs are hosted here. Every included, excluded, and unretrieved stu
 
 - **Databases:** PubMed (three decision sub-blocks) and Europe PMC, searched 2026-09-09; 927 + 636 raw records → 846 after deduplication.
 - **Screening:** title/abstract by two independent reviewers with consensus (370 included / 476 excluded); full text 271 retrieved (99 not retrieved), consensus 227 included / 44 excluded.
-- **Appraisal and extraction:** partly assisted by a large language model (Claude, Anthropic) under author supervision. The extraction was done by a single AI-assisted extractor, checked by a blinded second AI extraction of 24 studies (10.6%; 95.3% agreement) with adjudication against the PDF. The full provenance statement will accompany the manuscript.
+- **Appraisal:** MMAT 2018 for all studies; PROBAST and a reduced TRIPOD-AI checklist for prediction-model studies; applicability rules (v2) frozen before an independent agreement sample.
+- **Extraction:** codebook v1.0 frozen after a 12-study pilot; a blinded second extraction of 24 studies (10.6%) showed 95.3% agreement, with discrepancies adjudicated against the full text.
+
+## AI use statement
+
+AI tools were used in the screening support, critical appraisal, data extraction, and drafting processes of this review: Claude (Anthropic). All AI-assisted outputs were reviewed by the authors, who take full intellectual responsibility for the content. The authors adhere to COPE guidelines on AI in publication ethics and confirm that this use has been managed responsibly and ethically. Records flagged for review in the extraction dataset are documented in `extraction/extraction-codebook.md`.
 
 ## License
 

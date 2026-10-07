@@ -293,19 +293,4 @@ Decisiones:
 - Normalización de `country` (USA/US → United States, UK, Korea): 10 filas.
 - Tablas de síntesis: `analysis/AICRC_TX_map_{decision_x_modality,decision_x_translation_stage,decision_x_validation,modality_x_validation}.csv`; nota `manuscript/extraction-handoff-note.md` (corregidos dos errores propios detectados al verificar la nota contra los datos: 94,7 % de estudios 2020–2026 y una frase sin base).
 - SQLite reimportada (227 × 65 = 14 755 filas); handoff regenerado con `extraccion.csv`, `rob.csv` y `prisma-counts.csv`; `ready_for_sesion2: true`.
-- Abierto: criterio de H4 (confirmación de Paola), declaración de procedencia R1/R2 y de la extracción (fórmula la fija el usuario), correo a Paola sin enviar, protocolo sin registro, 86 `needs_review` retenidos con elección reglada, 46 estudios con información en suplementos no disponible.
 
-## 2026-10-07 — Cierre de la fase REVISOR y traspaso al redactor
-
-Decisiones del usuario: (1) **no se registrará el protocolo**; `protocol_ref: no registrado` en `review.yaml` y nota en `protocol/protocol.md`; (2) la declaración de procedencia se redacta describiendo lo ocurrido y se ajusta luego con el redactor; (3) criterios confirmados por el usuario, se cierra la fase y la sesión.
-- Declaración de procedencia (borrador descriptivo + párrafo en inglés): `manuscript/provenance-declaration.md`. Puntos marcados **[CONFIRMAR]** porque el expediente no registra quién ejecutó el R1 del cribado T/A y de texto completo ni la puntuación R1 v1 del appraisal (¿manual o con IA?).
-- Constancia: la confirmación del criterio de lectura de H4 consta como confirmación del usuario; no consta confirmación escrita de la segunda revisora. El correo a Paola no se envió.
-- Handoff regenerado (`handoff-sesion2/`): `ready_for_sesion2: true`, `blocking_gaps: []`, con `extraccion.csv`, `rob.csv`, `prisma-counts.csv`, `incluidos.csv`, `excluidos-ft.csv`, `protocolo.md`. Notas para el redactor en `manuscript/` (`appraisal-handoff-note.md`, `extraction-handoff-note.md`, `provenance-declaration.md`).
-- **Fase REVISOR cerrada.** Siguiente: REDACTOR Sesión 2 («Lee `REVISOR/reviews/AICRC_TX/handoff-sesion2/PROMPT_SESION2.md` y continúa la Sesión 2»).
-
-## 2026-10-07 — Informe de eficiencia y plan de canal por API
-
-- Consumo del appraisal y la extracción: ≈9,0 M de tokens reportados por subagentes (más corridas cortadas por el límite de sesión); la ventana de 5 h del plan Pro se agotó en 15–20 min.
-- Decisión del usuario: configurar una cuenta de API (consola) y una clave; en la próxima sesión de REVISOR se prueba el canal por API. La clave irá solo como variable de entorno; `.env` agregado a `.gitignore`.
-- Informe con cuellos de botella, procedimiento v2, plan de prueba de 12 artículos y lista de arranque: `manual/informe-eficiencia-y-canal-api-AICRC_TX.md`.
-- Se pasa a REDACTOR (Sesión 2).
