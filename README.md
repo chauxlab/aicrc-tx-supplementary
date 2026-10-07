@@ -2,6 +2,8 @@
 
 Supplementary material for the integrative review (Whittemore & Knafl, 2005) on artificial intelligence applied to therapeutic decision-making in colorectal cancer (`AICRC_TX`). The manuscript is in preparation.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23222097.svg)](https://doi.org/10.5281/zenodo.23222097)
+
 It documents the review process — protocol, search, screening, critical appraisal, and data extraction — for the complete corpus of **227 included studies**.
 
 No full-text PDFs are hosted here. Every included, excluded, and unretrieved study is identified by DOI, PMID, and/or a direct record link (`primary_url`), so the original article can be retrieved from its source of record.
@@ -29,6 +31,10 @@ No full-text PDFs are hosted here. Every included, excluded, and unretrieved stu
 ## AI use statement
 
 AI tools were used in the screening support, critical appraisal, data extraction, and drafting processes of this review: Claude (Anthropic). All AI-assisted outputs were reviewed by the authors, who take full intellectual responsibility for the content. The authors adhere to COPE guidelines on AI in publication ethics and confirm that this use has been managed responsibly and ethically. Records flagged for review in the extraction dataset are documented in `extraction/extraction-codebook.md`.
+
+## Citing this repository
+
+If you reuse this material, please cite the associated manuscript and, for the dataset itself, this repository's Zenodo record: https://doi.org/10.5281/zenodo.23222097.
 
 ## License
 
