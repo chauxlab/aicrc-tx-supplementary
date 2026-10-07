@@ -1,0 +1,13 @@
+therapeutic_decision,research_only,retrospective_validation,prospective_validation,implementation_evaluated,total
+neoadjuvant_response,87,43,6,0,136
+immunotherapy_msi_selection,8,11,1,0,20
+systemic_therapy_selection_response,12,5,0,0,17
+organ_preservation_watch_wait,13,2,0,0,15
+surgical_approach_or_complications,7,1,0,1,9
+targeted_therapy_biomarker,3,4,0,0,7
+adjuvant_chemo_selection,1,6,0,0,7
+toxicity_prediction,6,0,0,0,6
+treatment_intensification,2,1,1,0,4
+other,2,1,0,0,3
+discovery_no_decision,1,1,0,0,2
+treatment_recommendation_llm,1,0,0,0,1

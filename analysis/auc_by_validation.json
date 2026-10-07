@@ -1,0 +1,1 @@
+[["internal_holdout", 74, 0.857, 0.786, 0.89], ["external_retrospective", 44, 0.805, 0.719, 0.881], ["internal_cv", 31, 0.851, 0.76, 0.904], ["external_multicenter", 20, 0.83, 0.762, 0.895], ["temporal_same_center", 13, 0.83, 0.758, 0.897], ["prospective", 8, 0.802, 0.743, 0.833], ["none", 4, 0.917, 0.903, 0.938], ["decision_impact_observational", 1, 0.79, 0.79, 0.79]]

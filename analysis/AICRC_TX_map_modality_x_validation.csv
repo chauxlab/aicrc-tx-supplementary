@@ -1,0 +1,10 @@
+data_modality,internal_holdout,external_retrospective,internal_cv,external_multicenter,temporal_same_center,none,prospective,decision_impact_observational,total
+radiology_imaging,51,26,26,11,8,6,6,0,134
+clinical_tabular,10,2,6,2,2,1,0,1,24
+multimodal,10,3,2,5,0,0,1,0,21
+digital_pathology,4,6,0,5,1,1,0,0,17
+transcriptomics,2,10,2,1,0,1,1,0,17
+endoscopy,3,2,2,0,2,0,0,0,9
+other,1,1,1,0,0,0,0,0,3
+text_ehr,0,0,0,0,0,1,0,0,1
+genomics,0,1,0,0,0,0,0,0,1

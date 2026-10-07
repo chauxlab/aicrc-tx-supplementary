@@ -1,0 +1,16 @@
+record_id,field,main_before,after_adjudication,reason
+REC-AICRCTX-000033,n_analytic,144,25,Main model (ARPAM-US) cohort only; the 119-patient retrospective MRI cohort trains comparators
+REC-AICRCTX-000033,code_availability,yes,NR,"GitHub link is for acquisition/annotation software, not the model"
+REC-AICRCTX-000109,code_availability,NR,no,Authors METRICS self-assessment: code availability No
+REC-AICRCTX-000109,data_availability,NR,no,Authors METRICS self-assessment: data availability No
+REC-AICRCTX-000147,performance_metric,AUC,accuracy,Rule 4: held-out cohort (internal test) is more demanding than nested CV
+REC-AICRCTX-000147,primary_metric_value,0.73,80,same
+REC-AICRCTX-000147,performance_cohort,cross_validation,internal_test,same
+REC-AICRCTX-000147,n_performance,72,30,same
+REC-AICRCTX-000147,primary_metric_ci_low,0.65,NR,same
+REC-AICRCTX-000147,primary_metric_ci_high,0.81,NR,same
+REC-AICRCTX-000160,ai_task,segmentation_plus_prediction,other,"Published CNN quantifies tumor buds; association analysis, no model developed"
+REC-AICRCTX-000414,code_availability,yes,upon_request,"Code promised for publication, weights on request; not yet available"
+REC-AICRCTX-000642,n_analytic,5335,3581,Analysed sample (3041 + 540); 5335 were enrolled
+REC-AICRCTX-000799,stage_context,mixed_all_stages,NR,Stage reported only in supplement; no inference (rule 1)
+REC-AICRCTX-000799,extraction_status,complete,partial,stage_context NR

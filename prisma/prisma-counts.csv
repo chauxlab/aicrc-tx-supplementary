@@ -1,0 +1,17 @@
+arm,stage,n,note
+database,pubmed_raw,927,"PubMed, 3 sub-bloques de decisión: neoadyuvancia 400 / respuesta 195 / selección 332"
+database,pubmed_unique_pmid,787,
+database,europepmc_raw,636,"Europe PMC TITLE:/ABSTRACT:, mismos 3 sub-bloques"
+database,europepmc_new_after_dedup,61,
+database,ris_entries,848,787 + 61
+database,duplicates_removed,2,"2 pares de preprints duplicados resueltos manualmente (duplicate_resolution.csv)"
+database,corpus_sqlite,846,REC-AICRCTX-000001 a 000848 (huecos 000818 y 000844)
+database,title_abstract_screened,846,R1 y R2 independientes + consenso
+database,title_abstract_excluded,476,
+database,title_abstract_included,370,Consenso T/A
+database,reports_sought,370,Same 370
+database,full_text_not_retrieved,99,"retrieval_status=unavailable (sought, not assessed). Paywall duro sin OA tras Paperpile (266 PDFs), Unpaywall/Europe PMC (+5) y chequeo manual de 32 DOI (0 recuperados); el usuario cortó el chequeo manual"
+database,full_text_assessed,271,Retrieved PDFs only
+database,full_text_excluded,44,wrong outcome 20; wrong publication type 17; wrong intervention 7
+database,full_text_included,227,
+review,studies_included_total,227,Sin otros métodos de búsqueda
